@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        jcenter()
+
+        maven {
+            url 'http://oss.sonatype.org/content/repositories/snapshots'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:0.+'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
